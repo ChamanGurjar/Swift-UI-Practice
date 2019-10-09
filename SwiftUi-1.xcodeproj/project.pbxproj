@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670DCCB0234D6E5000F28E3F /* ContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670DCCAF234D6E5000F28E3F /* ContentRow.swift */; };
 		677BF6952349ACC0005DBB89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677BF6942349ACC0005DBB89 /* AppDelegate.swift */; };
 		677BF6972349ACC0005DBB89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677BF6962349ACC0005DBB89 /* SceneDelegate.swift */; };
 		677BF6992349ACC0005DBB89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677BF6982349ACC0005DBB89 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		670DCCAF234D6E5000F28E3F /* ContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRow.swift; sourceTree = "<group>"; };
 		677BF6912349ACC0005DBB89 /* SwiftUi-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUi-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		677BF6942349ACC0005DBB89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		677BF6962349ACC0005DBB89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				677BF6942349ACC0005DBB89 /* AppDelegate.swift */,
 				677BF6962349ACC0005DBB89 /* SceneDelegate.swift */,
 				677BF6982349ACC0005DBB89 /* ContentView.swift */,
+				670DCCAF234D6E5000F28E3F /* ContentRow.swift */,
 				677BF69A2349ACC4005DBB89 /* Assets.xcassets */,
 				677BF69F2349ACC4005DBB89 /* LaunchScreen.storyboard */,
 				677BF6A22349ACC4005DBB89 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				677BF6952349ACC0005DBB89 /* AppDelegate.swift in Sources */,
 				677BF6972349ACC0005DBB89 /* SceneDelegate.swift in Sources */,
+				670DCCB0234D6E5000F28E3F /* ContentRow.swift in Sources */,
 				677BF6992349ACC0005DBB89 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
