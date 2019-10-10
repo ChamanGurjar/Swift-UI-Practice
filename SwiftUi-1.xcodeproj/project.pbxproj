@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		670DCCB0234D6E5000F28E3F /* ContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670DCCAF234D6E5000F28E3F /* ContentRow.swift */; };
+		673A29B5234EBBD8002937FF /* DeveloperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673A29B4234EBBD8002937FF /* DeveloperModel.swift */; };
 		677BF6952349ACC0005DBB89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677BF6942349ACC0005DBB89 /* AppDelegate.swift */; };
 		677BF6972349ACC0005DBB89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677BF6962349ACC0005DBB89 /* SceneDelegate.swift */; };
 		677BF6992349ACC0005DBB89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677BF6982349ACC0005DBB89 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		670DCCAF234D6E5000F28E3F /* ContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRow.swift; sourceTree = "<group>"; };
+		673A29B4234EBBD8002937FF /* DeveloperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperModel.swift; sourceTree = "<group>"; };
 		677BF6912349ACC0005DBB89 /* SwiftUi-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUi-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		677BF6942349ACC0005DBB89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		677BF6962349ACC0005DBB89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		673A29B6234EBCA9002937FF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				673A29B4234EBBD8002937FF /* DeveloperModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		677BF6882349ACC0005DBB89 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		677BF6932349ACC0005DBB89 /* SwiftUi-1 */ = {
 			isa = PBXGroup;
 			children = (
+				673A29B6234EBCA9002937FF /* model */,
 				677BF6942349ACC0005DBB89 /* AppDelegate.swift */,
 				677BF6962349ACC0005DBB89 /* SceneDelegate.swift */,
 				677BF6982349ACC0005DBB89 /* ContentView.swift */,
@@ -152,6 +163,7 @@
 				677BF6952349ACC0005DBB89 /* AppDelegate.swift in Sources */,
 				677BF6972349ACC0005DBB89 /* SceneDelegate.swift in Sources */,
 				670DCCB0234D6E5000F28E3F /* ContentRow.swift in Sources */,
+				673A29B5234EBBD8002937FF /* DeveloperModel.swift in Sources */,
 				677BF6992349ACC0005DBB89 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

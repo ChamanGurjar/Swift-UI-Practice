@@ -9,13 +9,14 @@
 import SwiftUI
 
 struct ContentRow: View {
+    var developerName: String
+    
     var body: some View {
-        
         HStack {
             Image("Paytm-L").clipShape(Circle())
             
             VStack(alignment: .leading) {
-                Text("Developer Name").font(.title)
+                Text( "\(developerName)").font(.title).fixedSize()
                 Text("Developer Title Or About Developer")
             }
             Spacer()
@@ -26,6 +27,6 @@ struct ContentRow: View {
 
 struct ContentRow_Previews: PreviewProvider {
     static var previews: some View {
-        ContentRow()
+        ContentRow(developerName: "Chaman Gurjar")
     }
 }
