@@ -10,10 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List(develoeprs) { developer in
-            ContentRow(developerName: developer.devName)
-        } 
-        
+        NavigationView {
+            List(develoeprs) { developer in
+                //                NavigationButton(destination: ContentDetails(devName: developer.devName)) {
+                ContentRow(developerName: developer.devName)
+                // }
+            }.navigationBarTitle("Developers", displayMode: .large)
+        }
     }
 }
 
